@@ -1,0 +1,105 @@
+@font-face {
+  font-family: OpenSans ;
+  src : url('/font/open-sans/OpenSans-Regular.tff');
+}
+@font-face {
+  font-family: OpenSans-light;
+  src : url('/font/open-sans/OpenSans-Light.tff');
+}
+
+html,body,footer{
+  height: 100%;
+  font-family: OpenSans;
+}
+
+body{
+   background: #EFEFEF;
+}
+
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.img{
+  margin:0 auto;
+}
+
+
+.title{
+  color: #212121;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+#footer{
+  height: 100px;
+  font-weight:100;
+	font-size: 22px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.cus-button {
+  padding:  20px 0px;
+  /*margin-bottom: 25px;*/
+  font-size: 22px;
+  font-family: OpenSans;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #3498DB;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 3px 8px #adadad;
+  margin-bottom: 18px;
+  margin-left: auto;
+}
+
+.display-block{
+  display: block;
+}
+.display-inline-table{
+  display: inline-table;
+}
+
+.top-buffer { margin-top:20px; }
+
+.top30{
+  margin-top: 30px;
+  clear: both;
+}
+
+.float-right{
+  float: right;
+}
+
+.float-left{
+  float: left;
+}
+
+.bottom{
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: OpenSans-light;
+  color: white;
+  position: fixed;
+  background-color: #3498DB;
+}
+
+
+/*.button:hover {background-color: #2398E7}*/
+
+.cus-button:active {
+  /*background-color: #3399cc;*/
+  box-shadow: 0 7px 9px #898989;
+  transform: translateY(4px);
+}
+
